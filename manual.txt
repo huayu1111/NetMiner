@@ -1,7 +1,11 @@
 
 * A guideline for high-quality gene co-expression network inference based on the large-scale open access RNA-seq dataset
 
-* To run this pipeline, you need high-performance computing clusters, Linux and the Portable Batch System (PBS)
+* The inference program can be applied in two different methods: 1) Run using the primary RNA-seq data downloaded from NCBI SRA. 2) Run using gene expression data.
+
+1) Running pipeline using the primary RNA-seq data downloaded from NCBI SRA.
+
+* To run pipeline using the primary RNA-seq data downloaded from NCBI SRA, the users need high-performance computing clusters, Linux and the Portable Batch System (PBS)
 
 * This pipeline depend on the following softwares
 1. Perl v5.10.1
